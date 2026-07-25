@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microsoftauth"
+version = "1.0.4"
+authors = [
+  { name="Artem" }
+]
+description = "Удобная авторизация Microsoft через pywebview"
+requires-python = ">=3.8"
+dependencies = [
+    "msal>=1.20.0",
+    "pywebview>=5.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
